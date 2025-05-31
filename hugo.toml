@@ -1,9 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://srahhali.org/'
 languageCode = 'en-us'
 title = 'Sofian Rahhali'
 theme = 'PaperMod'
-
-disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
 	identifier = "about"

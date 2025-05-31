@@ -17,6 +17,8 @@ Since then, I've honed my skills through working on various technical projects a
 When I'm not coding, you can find me playing soccer, volleyball, or my favorite video games. My favorite soccer team is Tottenham Hotspur.
 I also enjoy going to the gym, listening/playing to music, and learning about the latest tech. 
 
+[Check out my GitHub](https://github.com/SofianR2)
+
 ## Education {#education}
 ---
 ### B.A./M.S. Dual Degree in Computer Science  
@@ -74,7 +76,7 @@ generations with potential for further enhancements.
 - Executed an extensive simulation involving over 50,000 robotic models, analyzing and documenting the most
 effective evolutionary adaptations.
 
-   [→ Live Demo](https://example‐project1.com) • [Source](https://github.com/you/project1)
+[Source](https://github.com/SofianR2/mybots)
 
 2. **Full-stack Notes App**
    ### {{< figure
@@ -86,7 +88,7 @@ component structuring.
 - Engineered a robust API with Node.js, seamlessly integrating AWS services for scalability and cost-effectiveness.
 - Deployed app on AWS with serverless functions, ensuring a highly scalable and practically free-to-host solution.
 
-   [→ Live Demo](https://example‐project2.com) • [Source](https://github.com/you/project2)
+[Source](https://github.com/SofianR2/NotesList)
 
 2. **Ray Tracer in C++**
    ### {{< figure
@@ -98,9 +100,13 @@ shadows, tone mapping, etc.
 - Created a scene-loading system, utilizing JSON to pull vital scene information and specifications.
 - Enabled image output in PPM format for efficient scene replication and visualization of rendered images.
 
-   [→ Live Demo](https://example‐project2.com) • [Source](https://github.com/you/project2)
+[Source](https://github.com/SofianR2/Ray-Tracer)
 
 
 ## Skills {#skills}
-
+- **Technical Languages:** Python, C, C++, C#, Java, JavaScript, Typescript, HTML, SQL, MySQL, Racket, Lisp, Ruby
+- **Frameworks/Developer Tools:** React, AWS (DynamoDB, Amplify, Lambda, S3, RDS), Node.js, Express.js, Unix,
+Git, GitHub, Unity3D, MS Office, Blender, Figma, Pandas, NumPy, Rails
+- **Databases & DevOps:** PostgreSQL, MySQL, Docker, CI/CD  
+- **Languages:** Japanese (Native)
 
