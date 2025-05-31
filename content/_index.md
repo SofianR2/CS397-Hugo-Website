@@ -1,7 +1,7 @@
 # Hi, my name is Sofian! {#about}
 
 {{< figure
-    src="/images/SRPhoto.jpg"
+    src="images/SRPhoto.jpg"
     width="400"
 >}}
 
@@ -35,7 +35,7 @@ _September 2021 – June 2025_
 ## Experience {#experience}
 ---
 ### {{< figure
-      src="/images/AmazonLogo.png"
+      src="images/AmazonLogo.png"
       width="120"
     >}} **Amazon**
     
@@ -49,7 +49,7 @@ storage of GraphQL schemas retrieved from the Selling Partner API.
 schema updates, eliminating manual efforts and ensuring real-time accuracy in the schema cache.
 
 ### {{< figure
-      src="/images/AmericanAcademy.png"
+      src="images/AmericanAcademy.png"
       width="120"
     >}} **The American Academy of Arts and Letters** 
     
@@ -66,7 +66,7 @@ Here are some of the projects I've worked on!
 
 1. **3D Evolutionary Robot in Python**  
    ### {{< figure
-      src="/images/robot.png"
+      src="images/robot.png"
       width="300"
     >}}
 - Engineered a sophisticated 3D robot using Pyrosim, focusing on evolutionarily advanced locomotion and structural
@@ -80,7 +80,7 @@ effective evolutionary adaptations.
 
 2. **Full-stack Notes App**
    ### {{< figure
-      src="/images/notes.png"
+      src="images/notes.png"
       width="100"
     >}}  
 - Architected a dynamic notes app using React and Node.js, prioritizing optimal user experience through advanced
@@ -92,7 +92,7 @@ component structuring.
 
 2. **Ray Tracer in C++**
    ### {{< figure
-      src="/images/raytracer.png"
+      src="images/raytracer.png"
       width="300"
     >}}  
 - Designed and built a ray tracer in C++ incorporating advanced intersection logic, Blinn-Phong shading, reflections,
