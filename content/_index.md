@@ -104,6 +104,7 @@ shadows, tone mapping, etc.
 
 
 ## Skills {#skills}
+---
 - **Technical Languages:** Python, C, C++, C#, Java, JavaScript, Typescript, HTML, SQL, MySQL, Racket, Lisp, Ruby
 - **Frameworks/Developer Tools:** React, AWS (DynamoDB, Amplify, Lambda, S3, RDS), Node.js, Express.js, Unix,
 Git, GitHub, Unity3D, MS Office, Blender, Figma, Pandas, NumPy, Rails
