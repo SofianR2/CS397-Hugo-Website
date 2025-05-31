@@ -1,113 +1,339 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>My New Hugo Site</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.147.6">
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html lang="en" dir="auto">
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<head>
+	<meta name="generator" content="Hugo 0.147.6"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Sofian Rahhali</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Sofian Rahhali (Alt + H)">Sofian Rahhali</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/#about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/#education" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/#experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/#projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/#skills" title="Skills">
+                    <span>Skills</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<div class="post-content"><h1 id="about">Hi, my name is Sofian!<a hidden class="anchor" aria-hidden="true" href="#about">#</a></h1>
+<figure>
+    <img loading="lazy" src="/images/SRPhoto.jpg" width="400"/> 
+</figure>
+
+<p>Hello! I&rsquo;m Sofian Rahhali, an incoming SDE at Amazon and a current senior at Northwestern University pursuing a BA/MS in Computer Science.
+During my time here, I&rsquo;ve learned a lot about creating modern, scalable, and responsive software solutions.</p>
+<p>I specialize in back-end development using technologies like Python, C++, and Node.js, but I&rsquo;m
+also comfortable working with front-end technologies like React or Tailwind CSS and other technolgoies such as AWS and GraphQL.</p>
+<p>My love for technology began when I first built my pc in 7th grade, and I was introduced to coding in my senior year of high school.
+Since then, I&rsquo;ve honed my skills through working on various technical projects and internship experiences.</p>
+<p>When I&rsquo;m not coding, you can find me playing soccer, volleyball, or my favorite video games. My favorite soccer team is Tottenham Hotspur.
+I also enjoy going to the gym, listening/playing to music, and learning about the latest tech.</p>
+<h2 id="education">Education<a hidden class="anchor" aria-hidden="true" href="#education">#</a></h2>
+<hr>
+<h3 id="bams-dual-degree-in-computer-science">B.A./M.S. Dual Degree in Computer Science<a hidden class="anchor" aria-hidden="true" href="#bams-dual-degree-in-computer-science">#</a></h3>
+<p><strong>Northwestern University</strong>, Evanston, IL<br>
+<em>September 2021 – June 2025</em></p>
+<ul>
+<li>
+<p><strong>Relevant Coursework:</strong></p>
+<ul>
+<li>Data Structures and Algorithms, Computer Systems, Game Design, System Security, Discrete Math, Programming Languages, Computer Graphics, Human-Computer Interaction, Artificial Intelligence, Design &amp; Analysis of Algorithms, Scalable Software Architectures, Machine Learning, Deep Learning,  Operating Systems</li>
+</ul>
+</li>
+<li>
+<p><strong>Activities:</strong></p>
+<ul>
+<li>Men&rsquo;s Club Volleyball</li>
+<li>Japanese-American Student Association</li>
+<li>Moroccan-American Student Association</li>
+</ul>
+</li>
+</ul>
+<h2 id="experience">Experience<a hidden class="anchor" aria-hidden="true" href="#experience">#</a></h2>
+<hr>
+<h3 id="hahahugoshortcode23s1hbhb-amazon"><figure>
+    <img loading="lazy" src="/images/AmazonLogo.png" width="120"/> 
+</figure>
+ <strong>Amazon</strong></h3>
+<p>Software Engineering Intern<br>
+<em>June 2023 – Present</em></p>
+<ul>
+<li>Added GraphQL Union Type support to Amazon’s Data Kiosk platform, enhancing data discovery and business
+insights for 2.5MM merchants and 150k vendors, processing 12.6MM feed and 37.8MM report requests daily.</li>
+<li>Designed and implemented an S3 caching system for Amazon’s Schema Explorer, enabling efficient compression and
+storage of GraphQL schemas retrieved from the Selling Partner API.</li>
+<li>Engineered robust schema-fetching system using API Gateway, SQS, Secrets Manager, and Lambda to automate
+schema updates, eliminating manual efforts and ensuring real-time accuracy in the schema cache.</li>
+</ul>
+<h3 id="hahahugoshortcode23s2hbhb-the-american-academy-of-arts-and-letters"><figure>
+    <img loading="lazy" src="/images/AmericanAcademy.png" width="120"/> 
+</figure>
+ <strong>The American Academy of Arts and Letters</strong></h3>
+<p>IT Project Management Intern<br>
+<em>June 2023 – Present</em></p>
+<ul>
+<li>Led pivotal role in defining scope and goals for key projects, directly contributing to the effective allocation of a
+$3MM+ budget, ensuring maximum impact and strategic alignment.</li>
+<li>Developed and implemented an advanced script in JavaScript for automated financial and payroll management,
+enhancing efficiency and accuracy in fiscal operations.</li>
+</ul>
+<h2 id="projects">Projects<a hidden class="anchor" aria-hidden="true" href="#projects">#</a></h2>
+<hr>
+<p>Here are some of the projects I&rsquo;ve worked on!</p>
+<ol>
+<li><strong>3D Evolutionary Robot in Python</strong>
+<h3 id="hahahugoshortcode23s3hbhb"><figure>
+    <img loading="lazy" src="/images/robot.png" width="300"/> 
+</figure>
+</h3>
+</li>
+</ol>
+<ul>
+<li>
+<p>Engineered a sophisticated 3D robot using Pyrosim, focusing on evolutionarily advanced locomotion and structural
+design.</p>
+</li>
+<li>
+<p>Utilized parallel hill climbing for population evolution, showcasing the transformation of robot movement over
+generations with potential for further enhancements.</p>
+</li>
+<li>
+<p>Executed an extensive simulation involving over 50,000 robotic models, analyzing and documenting the most
+effective evolutionary adaptations.</p>
+<p><a href="https://example%E2%80%90project1.com">→ Live Demo</a> • <a href="https://github.com/you/project1">Source</a></p>
+</li>
+</ul>
+<ol start="2">
+<li><strong>Full-stack Notes App</strong>
+<h3 id="hahahugoshortcode23s4hbhb"><figure>
+    <img loading="lazy" src="/images/notes.png" width="100"/> 
+</figure>
+</h3>
+</li>
+</ol>
+<ul>
+<li>
+<p>Architected a dynamic notes app using React and Node.js, prioritizing optimal user experience through advanced
+component structuring.</p>
+</li>
+<li>
+<p>Engineered a robust API with Node.js, seamlessly integrating AWS services for scalability and cost-effectiveness.</p>
+</li>
+<li>
+<p>Deployed app on AWS with serverless functions, ensuring a highly scalable and practically free-to-host solution.</p>
+<p><a href="https://example%E2%80%90project2.com">→ Live Demo</a> • <a href="https://github.com/you/project2">Source</a></p>
+</li>
+</ul>
+<ol start="2">
+<li><strong>Ray Tracer in C++</strong>
+<h3 id="hahahugoshortcode23s5hbhb"><figure>
+    <img loading="lazy" src="/images/raytracer.png" width="300"/> 
+</figure>
+</h3>
+</li>
+</ol>
+<ul>
+<li>
+<p>Designed and built a ray tracer in C++ incorporating advanced intersection logic, Blinn-Phong shading, reflections,
+shadows, tone mapping, etc.</p>
+</li>
+<li>
+<p>Created a scene-loading system, utilizing JSON to pull vital scene information and specifications.</p>
+</li>
+<li>
+<p>Enabled image output in PPM format for efficient scene replication and visualization of rendered images.</p>
+<p><a href="https://example%E2%80%90project2.com">→ Live Demo</a> • <a href="https://github.com/you/project2">Source</a></p>
+</li>
+</ul>
+<h2 id="skills">Skills<a hidden class="anchor" aria-hidden="true" href="#skills">#</a></h2>
 
 
-
-
-    
-
-
-    
-      
-
-    
-
-    
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
-      
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/">
-    
-
-    <meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="My New Hugo Site">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
-
-  <meta itemprop="name" content="My New Hugo Site">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="My New Hugo Site">
-
-	
-  </head><body class="ma0 avenir bg-near-white development">
-
-    
-
-  <header>
-    <div class="pb3-m pb6-l bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        My New Hugo Site
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          My New Hugo Site
-        </h1>
-        
-      </div>
-    </div>
-  </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
-    
-  </article>
-
-  
-  
-  
-  
-  
-
-  
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  My New Hugo Site 2025 
-  </a>
-    <div><div class="ananke-socials"></div>
 </div>
-  </div>
-</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Sofian Rahhali</a></span> · 
 
-  </body>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>
