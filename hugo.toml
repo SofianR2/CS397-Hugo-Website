@@ -1,4 +1,4 @@
-baseURL = 'https://srahhali.org/'
+baseURL = "https://SofianR2.github.io/CS397-Hugo-Website/"
 languageCode = 'en-us'
 title = 'Sofian Rahhali'
 theme = 'PaperMod'
